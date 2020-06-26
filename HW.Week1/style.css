@@ -1,0 +1,94 @@
+/* Whole body specifications */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #343148;
+}
+/* Introduction part */
+.intro {
+  width: 80%;
+  height: 300px;
+  padding: 10px;
+  margin: auto;
+  background-color: #615550;
+}
+h1 {
+  color: #f1f1f1;
+}
+h2,
+h4 {
+  color: #a9a9a9;
+}
+#myspan {
+  color: #a9a9a9;
+}
+
+.bio {
+  padding-right: 10px;
+  margin: 10px;
+}
+.bio img {
+  float: left;
+  padding-right: 20px;
+}
+.bio ul {
+  float: right;
+  padding-right: 30px;
+}
+/* three sections in the container  */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* each section of the container */
+.flexbox-item {
+  width: 750px;
+  min-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #333333;
+  background-color: #615550;
+}
+/* contact information part  */
+footer {
+  width: 80%;
+  height: 200px;
+  background-color: #615550;
+  border: 1px solid #333333;
+  padding: 10px;
+  margin: auto;
+}
+footer h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+ul li a {
+  color: white;
+  width: 100%;
+}
+.social-icons img {
+  width: 50px;
+  height: 50px;
+}

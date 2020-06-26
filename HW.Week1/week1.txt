@@ -1,0 +1,31 @@
+Week 1 Exericse 
+
+1. 
+
+1. To add a hidden File/Folder in Terminal:  
+	mkdir .hiddenfolder  
+
+   To display hidden file/folder in Terminal: 
+	ls -a 
+
+2. To create a multiple nested directories: 
+	mkdir -p parent/1/2/3/4/ 
+   To create multiple sub directories with in a directory/subdirectory : 
+	mkdir -p parent/{subdirectory1,subdirectory2,subdirectory3} 
+
+
+3. To add some text to an existing text file from the terminal : 
+	cat >> filename 
+	A cursor will appear on new line. Start typing and When you’re done, press Enter after the last line and then press Ctrl+D to copy that text to the end of the file and quit cat.
+	(Repeat to add a second text)
+
+
+
+
+2. 
+
+
+
+   
+
+
