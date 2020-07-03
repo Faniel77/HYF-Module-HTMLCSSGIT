@@ -1,6 +1,6 @@
 this is thirsty and it is different from the main branch 
 
-1. 
+I am still changing my thirsty 
 
 1. To add a hidden File/Folder in Terminal:  
 	mkdir .hiddenfolder  
