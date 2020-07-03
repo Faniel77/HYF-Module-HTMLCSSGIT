@@ -18,9 +18,5 @@ Week 1 Exericse
 	cat >> filename 
 	A cursor will appear on new line. Start typing and When you’re done, press Enter after the last line and then press Ctrl+D to copy that text to the end of the file and quit cat.
 	(Repeat to add a second text)
-
-
-
-   
-
+4. cd ../ .. back to home directory
 
