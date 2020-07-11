@@ -11,12 +11,37 @@ body {
   background-color: #343148;
 }
 /* Introduction part */
-.intro {
-  width: 80%;
+.introduction-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #b2bec3;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  /* width: 80%;
   height: 300px;
   padding: 10px;
   margin: auto;
-  background-color: #615550;
+  background-color: #615550; */
+}
+.profile-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile-name {
+  margin-left: 2rem;
+}
+.personal-photo img {
+  border-radius: 50%;
+}
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 h1 {
   color: #f1f1f1;
@@ -29,18 +54,18 @@ h4 {
   color: #a9a9a9;
 }
 
-.bio {
+/* .bio {
   padding-right: 10px;
   margin: 10px;
-}
-.bio img {
+} */
+/* .bio img {
   float: left;
   padding-right: 20px;
 }
 .bio ul {
   float: right;
   padding-right: 30px;
-}
+} */
 /* three sections in the container  */
 .container {
   display: flex;
@@ -48,7 +73,7 @@ h4 {
   align-items: center;
 }
 /* each section of the container */
-.flexbox-item {
+.resume-parts {
   width: 750px;
   min-height: 200px;
   padding: 10px;
@@ -57,10 +82,10 @@ h4 {
   background-color: #615550;
 }
 /* contact information part  */
-footer {
-  width: 80%;
+.at-footer {
+  width: 90%;
   height: 200px;
-  background-color: #615550;
+  background-color: #b2bec3;
   border: 1px solid #333333;
   padding: 10px;
   margin: auto;
