@@ -4,6 +4,7 @@ I am still changing my thirsty
 
 1. To add a hidden File/Folder in Terminal:  
 	mkdir .hiddenfolder  
+	touch .hiddenfile 
 
    To display hidden file/folder in Terminal: 
 	ls -a 
@@ -14,12 +15,14 @@ I am still changing my thirsty
 	mkdir -p parent/{subdirectory1,subdirectory2,subdirectory3} 
 
 
+3. To append data from a command to the end of a  file. 
+	echo "write any text" >> filname 
+
 3. To add some text to an existing text file from the terminal : 
 	cat >> filename 
 	A cursor will appear on new line. Start typing and When you’re done, press Enter after the last line and then press Ctrl+D to copy that text to the end of the file and quit cat.
 	(Repeat to add a second text
 
-today's change i expect this to see in the remote 
 4. cd ../ .. back to home directory
 
 
