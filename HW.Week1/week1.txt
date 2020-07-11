@@ -1,6 +1,3 @@
-this is thirsty and it is different from the main branch 
-
-I am still changing my thirsty 
 
 1. To add a hidden File/Folder in Terminal:  
 	mkdir .hiddenfolder  
@@ -23,6 +20,6 @@ I am still changing my thirsty
 	A cursor will appear on new line. Start typing and When you’re done, press Enter after the last line and then press Ctrl+D to copy that text to the end of the file and quit cat.
 	(Repeat to add a second text
 
-4. cd ../ .. back to home directory
+
 
 
