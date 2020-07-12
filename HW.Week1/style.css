@@ -20,11 +20,6 @@ body {
   width: 90%;
   margin: auto;
   padding: 1rem;
-  /* width: 80%;
-  height: 300px;
-  padding: 10px;
-  margin: auto;
-  background-color: #615550; */
 }
 .profile-image {
   display: flex;
@@ -43,30 +38,21 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-h1 {
-  color: #f1f1f1;
+.brief-description {
+  padding: 0 3rem;
 }
+h1,
 h2,
 h4 {
-  color: #a9a9a9;
+  color: #f1f1f1;
+}
+p {
+  font-size: 16px;
 }
 #myspan {
-  color: #a9a9a9;
+  color: #f4f4f4;
 }
-
-/* .bio {
-  padding-right: 10px;
-  margin: 10px;
-} */
-/* .bio img {
-  float: left;
-  padding-right: 20px;
-}
-.bio ul {
-  float: right;
-  padding-right: 30px;
-} */
-/* three sections in the container  */
+/*  the box which contain the resume parts */
 .container {
   display: flex;
   flex-direction: column;
@@ -79,7 +65,7 @@ h4 {
   padding: 10px;
   margin: 10px;
   border: 1px solid #333333;
-  background-color: #615550;
+  background-color: #b2bec3;
 }
 /* contact information part  */
 .at-footer {
