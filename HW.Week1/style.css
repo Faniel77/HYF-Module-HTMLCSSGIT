@@ -39,16 +39,17 @@ body {
   align-items: flex-start;
 }
 .brief-description {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 2rem;
+  font-size: 16px;
 }
 h1,
 h2,
 h4 {
   color: #f1f1f1;
 }
-p {
-  font-size: 16px;
-}
+
 #myspan {
   color: #f4f4f4;
 }
@@ -60,12 +61,14 @@ p {
 }
 /* each section of the container */
 .resume-parts {
-  width: 750px;
-  min-height: 200px;
-  padding: 10px;
-  margin: 10px;
+  width: 60%;
+  padding: 1rem;
+  margin: 0.5rem;
   border: 1px solid #333333;
   background-color: #b2bec3;
+}
+.resume-parts li {
+  font-size: 1rem;
 }
 /* contact information part  */
 .at-footer {
@@ -95,11 +98,27 @@ footer h3 {
   margin: 0 5px;
   cursor: pointer;
 }
-ul li a {
+.social-icons ul li a {
   color: white;
   width: 100%;
 }
 .social-icons img {
   width: 50px;
   height: 50px;
+}
+
+/* making it responsive to mobile size  */
+
+@media (max-width: 600px) {
+  .brief-description p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    width: 60%;
+  }
+  .resume-parts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
 }
